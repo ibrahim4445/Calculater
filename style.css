@@ -1,0 +1,91 @@
+body{
+    background: black;
+}
+#mainbody{
+    margin-left: 40%;
+    margin-top: 14%;
+    background: linear-gradient(#16b3b4,#103880);
+    width: 250px;
+    height: 390px;
+    border: solid 6px;
+    border-color: yellow;
+    border-radius: 12px;
+}
+#screen{
+    width: 85%;
+    height: 41px;
+    margin-left: 10px;
+    margin-top: 13px;
+    border-width: 5px;
+    border-color: yellow;
+    border-radius: 8px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    pointer-events: none;
+
+}
+.but{
+    width: 248px;
+    height: 334px;
+    margin-left: 1px;
+}
+button{
+    width: 37px;
+    height: 45px;
+    margin-top: 16px;
+    background: linear-gradient(#16b3b4,#103880);
+    margin-left: 16px;
+    border: solid yellow;
+    border-radius: 34px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(#20dddd,#1a56c5);
+}
+
+
+@media(max-width:480px){
+    #mainbody{
+        margin-left: 0;
+        margin-top: 0;
+        background: linear-gradient(#16b3b4,#103880);
+        width: 435px;
+        height: 540px;
+        border: solid 6px;
+        border-color: yellow;
+        border-radius: 12px;
+    }
+    #screen{
+        width: 92%;
+        height: 41px;
+        margin-left: 10px;
+        margin-top: 13px;
+        border-width: 5px;
+        border-color: yellow;
+        border-radius: 8px;
+        font-size: xx-large;
+        font-family: sans-serif;
+        pointer-events: none;
+    
+    }
+    .but{
+        width: 470px;
+        height: 334px;
+        margin-left: 1px;
+    }
+    button{
+        width: 85px;
+        height: 75px;
+        margin-top: 16px;
+        background: linear-gradient(#16b3b4,#103880);
+        margin-left: 16px;
+        border: solid yellow;
+        border-radius: 34px;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+}
